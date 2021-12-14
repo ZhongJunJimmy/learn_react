@@ -17,9 +17,9 @@ This is a learning project for react library. It's reference from [React Tutoria
 
 ### The Concept of Virtual DOM
 1. Real DOM
--- Every time the DOM changes, the browser would need to recalculate the CSS, run layout and repaint the web page.
+    - Every time the DOM changes, the browser would need to recalculate the CSS, run layout and repaint the web page.
 2. Virtual DOM 
--- Whenever a new element is added to the UI, a virtual DOM is created. Now, if the state of this element changes, React would recreate the virtual DOM for the second time and compare with the previous version to detect which of the virtual DOM object has changed. It then updates ONLY the object on the real DOM.
+    - Whenever a new element is added to the UI, a virtual DOM is created. Now, if the state of this element changes, React would recreate the virtual DOM for the second time and compare with the previous version to detect which of the virtual DOM object has changed. It then updates ONLY the object on the real DOM.
 
 ### Setting up Working Environment
 - Require Node 10 or higher
@@ -64,8 +64,5 @@ The project path tree view creating by `create-react-app`
 - It is an XML like syntax extension to JavaScript that makes it easier and more intuitive to describe the UI.
 - Convert JSX code to plain react code: [Link](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeADgPgAtEEQYB3EAJwQBMBCbAegKA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.16.4&externalPlugins=&assumptions=%7B%7D)
 - Take note of the following about the JSX:
--- You can use a valid JavaScript expression inside the JSX through curly braces, {}.
--- In JSX, elements attributes, event handlers are always in camelCase. The few exceptions are aria-* and data-* attributes, which are lowercase.
-
-
-
+    - You can use a valid JavaScript expression inside the JSX through curly braces, {}.
+    - In JSX, elements attributes, event handlers are always in camelCase. The few exceptions are aria-* and data-* attributes, which are lowercase.
