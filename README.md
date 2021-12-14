@@ -1,4 +1,4 @@
-# Learning react library
+# Learning REACT library
 
 ### Introduction
 This is a learning project for react library. It's reference from [React Tutorial From Scratch: A Step-by-Step Guide (2021)](https://ibaslogic.com/react-tutorial-for-beginners/)
