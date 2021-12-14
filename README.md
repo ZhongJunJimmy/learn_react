@@ -1,7 +1,7 @@
 # Learning REACT library
 
 ### Introduction
-This is a learning project for react library. It's reference from [React Tutorial From Scratch: A Step-by-Step Guide (2021)](https://ibaslogic.com/react-tutorial-for-beginners/)
+This is a learning project for REACT library. It's reference from [React Tutorial From Scratch: A Step-by-Step Guide (2021)](https://ibaslogic.com/react-tutorial-for-beginners/)
 ### Basic knowledge:
 - nodejs
 - javascript
