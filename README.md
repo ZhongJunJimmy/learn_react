@@ -23,7 +23,7 @@ This is a learning project for react library. It's reference from [React Tutoria
 ## Setting up Working Environment
 - Require Node 10 or higher
 - Though React recommended setting up the environment through the create-react-app CLI tool (coming to that)
-`> npx create-react-app <app_name>`
+- `> npx create-react-app <app_name>`
 
 ## Using the Create React App CLI
 The project path tree view creating by `create-react-app`
