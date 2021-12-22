@@ -109,13 +109,13 @@ But now, We can manage the stateful features by the function component in the **
 
 **to be continue...**
 <!--## Work on data
-**The Props & The State**
-## Reference-->
-[react-tutorial-for-beginners ](https://ibaslogic.com/react-tutorial-for-beginners/)
-[React Router](https://ithelp.ithome.com.tw/articles/10188245)
-[thinking-in-react ](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
-[components-and-props](https://en.reactjs.org/docs/components-and-props.html)
-[state-and-lifecycle](https://en.reactjs.org/docs/state-and-lifecycle.html)
-[](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md)
-[](https://en.reactjs.org/docs/faq-state.html)
-[](https://zh-hant.reactjs.org/docs/state-and-lifecycle.html)
+**The Props & The State**-->
+## Reference
+- [react-tutorial-for-beginners ](https://ibaslogic.com/react-tutorial-for-beginners/)
+- [React Router](https://ithelp.ithome.com.tw/articles/10188245)
+- [thinking-in-react ](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
+- [components-and-props](https://en.reactjs.org/docs/components-and-props.html)
+- [state-and-lifecycle](https://en.reactjs.org/docs/state-and-lifecycle.html)
+- [props-vs-state](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md)
+- [faq-state](https://en.reactjs.org/docs/faq-state.html)
+- [state-and-lifecycle](https://en.reactjs.org/docs/state-and-lifecycle.html)
