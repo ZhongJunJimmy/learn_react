@@ -80,7 +80,8 @@ The project path tree view creating by `create-react-app`
         ```
 Once you save the file, you’ll see a heading text displayed in the frontend.
 
-## Function Component & Class-Based Component
+## The React Component Types 
+**Function Component & Class-Based Component**
 The simplest way to define a component is to write a JavaScript function:
 ```
 function Welcome(props) {
@@ -99,16 +100,17 @@ class Welcome extends React.Component {
 ```
 The above two components are equivalent from React’s point of view.
 
-#### Before the 16.8 version of React:
+**Before the 16.8 version of React:**
 - The class-based type is required if the component will manage the state data and/or lifecycle method (more on this later). Hence, it is called a stateful component. 
 - The function component type cannot maintain state and lifecycle logic. And as such, it is referred to as a stateless component.
 
-This type is the simplest form of React component because it is primarily concerned with how things look. But now, things have changed with the React Hooks.
-You can now manage the stateful features inside of the function component. This gives us the flexibility to create a React application ONLY with function component.
+This type is the simplest form of React component because it is primarily concerned with how things look. 
+But now, We can manage the stateful features by the function component in the **React Hooks**. This gives us the flexibility to create a React application ONLY with function component.
 
-## The Props
-## The State
-## Reference
+**to be continue...**
+<!--## Work on data
+**The Props & The State**
+## Reference-->
 [react-tutorial-for-beginners ](https://ibaslogic.com/react-tutorial-for-beginners/)
 [React Router](https://ithelp.ithome.com.tw/articles/10188245)
 [thinking-in-react ](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
