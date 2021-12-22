@@ -81,7 +81,7 @@ The project path tree view creating by `create-react-app`
 Once you save the file, you’ll see a heading text displayed in the frontend.
 
 ## The React Component Types 
-**Function Component & Class-Based Component**
+**Function Component & Class-Based Component**<br>
 The simplest way to define a component is to write a JavaScript function:
 ```
 function Welcome(props) {
