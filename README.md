@@ -25,6 +25,18 @@ This is a learning project for REACT.js library.
 - Though React recommended setting up the environment through the create-react-app CLI tool (coming to that)
 - `> npx create-react-app <app_name>`
 
+## Writing React Directly in HTML
+- You’ll have an HTML file where you load three scripts in the head element pointing to their respective CDN – the React, ReactDOM and Babel (An Compiler for javascript).
+- ref: [Link](https://codepen.io/ibaslogic/pen/qBaPqBL?editors=1111)
+
+## What is JSX
+- This is called JSX (JavaScript XML).
+- It is an XML like syntax extension to JavaScript that makes it easier and more intuitive to describe the UI.
+- Convert JSX code to plain react code: [Link](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeADgPgAtEEQYB3EAJwQBMBCbAegKA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.16.4&externalPlugins=&assumptions=%7B%7D)
+- Take note of the following about the JSX:
+    - You can use a valid JavaScript expression inside the JSX through curly braces, {}.
+    - In JSX, elements attributes, event handlers are always in camelCase. The few exceptions are aria-* and data-* attributes, which are lowercase.
+
 ## Using the Create React App CLI
 The project path tree view creating by `create-react-app`
 ```
@@ -53,18 +65,6 @@ The project path tree view creating by `create-react-app`
 ```
 - public: contains the public asset of your application and it is where your static files reside.
 - src: working files
-
-## Writing React Directly in HTML
-- You’ll have an HTML file where you load three scripts in the head element pointing to their respective CDN – the React, ReactDOM and Babel (An Compiler for javascript).
-- ref: [Link](https://codepen.io/ibaslogic/pen/qBaPqBL?editors=1111)
-
-## What is JSX
-- This is called JSX (JavaScript XML).
-- It is an XML like syntax extension to JavaScript that makes it easier and more intuitive to describe the UI.
-- Convert JSX code to plain react code: [Link](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=MYewdgzgLgBApgGzgWzmWBeGAeADgPgAtEEQYB3EAJwQBMBCbAegKA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.16.4&externalPlugins=&assumptions=%7B%7D)
-- Take note of the following about the JSX:
-    - You can use a valid JavaScript expression inside the JSX through curly braces, {}.
-    - In JSX, elements attributes, event handlers are always in camelCase. The few exceptions are aria-* and data-* attributes, which are lowercase.
 
 ## How to use ReactDOM
 - The files that describe what you are seeing in the frontend live in the `src` folder.
